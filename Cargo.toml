@@ -1,0 +1,16 @@
+[package]
+name = "std-tests"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cafe-sys = "0.3.1"
+
+[[bin]]
+name = "std-tests"
+path = "src/main.rs"
+test = false
+
+[lib]
+test = false
+doctest = false

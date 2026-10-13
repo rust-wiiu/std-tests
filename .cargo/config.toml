@@ -1,0 +1,9 @@
+[build]
+target = "powerpc-nintendo-cafe"
+
+[target.powerpc-nintendo-cafe]
+runner = "./runner.sh"
+
+[env]
+IP = "192.168.8.155"
+SERIAL = "/dev/ttyUSB0"
